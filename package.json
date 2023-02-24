@@ -1,0 +1,18 @@
+{
+  "name": "playwright-bdd-demo",
+  "version": "1.0.0",
+  "description": "Test automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cucumber-js -p test_runner --tags @demo"
+  },
+  "author": "Uros",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^8.11.1",
+    "@playwright/test": "^1.31.1",
+    "playwright": "^1.31.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}
